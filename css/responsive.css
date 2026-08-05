@@ -1,0 +1,420 @@
+/* Tablets y pantallas medianas */
+@media (max-width: 900px) {
+    .hero__content {
+        width: 100%;
+        max-width: 560px;
+        padding-inline: 1.5rem;
+    }
+
+    .welcome {
+        padding: 4rem 2rem;
+    }
+
+    .welcome__content {
+        max-width: 620px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .hero__content {
+        justify-content: flex-end;
+        padding:
+            max(1.5rem, env(safe-area-inset-top))
+            1.25rem
+            max(1.25rem, env(safe-area-inset-bottom));
+    }
+
+    .hero__subtitle {
+        margin-bottom: 0.75rem;
+        font-size: 0.62rem;
+        letter-spacing: 0.24rem;
+    }
+
+    .hero__decoration {
+        width: min(85%, 260px);
+        margin-bottom: 0.75rem;
+    }
+
+    .hero__names-container {
+        max-width: 360px;
+        padding: 0.9rem 0.5rem;
+    }
+
+    .hero__names {
+        font-size: clamp(2.6rem, 13vw, 4rem);
+        line-height: 0.92;
+    }
+
+    .hero__date {
+        margin-top: 0.8rem;
+        font-size: 0.62rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .countdown {
+        max-width: 360px;
+        gap: 0.25rem;
+        margin-top: 1.5rem;
+    }
+
+    .countdown__number {
+        font-size: clamp(1.7rem, 8vw, 2.3rem);
+    }
+
+    .countdown__label {
+        font-size: 0.48rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .hero__scroll {
+        margin-top: 1.5rem;
+        font-size: 0.55rem;
+        letter-spacing: 0.11rem;
+    }
+
+    .welcome {
+        min-height: 100svh;
+        padding:
+            max(3rem, env(safe-area-inset-top))
+            1.25rem
+            max(3rem, env(safe-area-inset-bottom));
+    }
+
+    .welcome__ornament {
+        width: min(75%, 240px);
+        margin-bottom: 1.5rem;
+    }
+
+    .welcome__ornament--bottom {
+        margin-top: 1.75rem;
+        margin-bottom: 0;
+    }
+
+    .welcome__eyebrow {
+        font-size: 0.62rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .welcome__title {
+        font-size: clamp(2.9rem, 14vw, 4.2rem);
+        line-height: 0.95;
+    }
+
+    .welcome__names {
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .welcome__quote {
+        margin-bottom: 1.5rem;
+        padding: 1.25rem 0;
+        font-size: clamp(1.15rem, 5.5vw, 1.45rem);
+        line-height: 1.5;
+    }
+
+    .welcome__text {
+        margin-bottom: 0.9rem;
+        font-size: 0.9rem;
+        line-height: 1.75;
+    }
+
+    .welcome__signature {
+        margin-top: 1.5rem;
+    }
+
+    .welcome__signature span {
+        font-size: 1rem;
+    }
+
+    .welcome__signature strong {
+        font-size: 1.25rem;
+    }
+}
+
+/* Celulares pequeños */
+@media (max-width: 380px) {
+    .hero__content {
+        padding-inline: 1rem;
+    }
+
+    .hero__names {
+        font-size: 2.65rem;
+    }
+
+    .countdown__number {
+        font-size: 1.65rem;
+    }
+
+    .countdown__label {
+        font-size: 0.43rem;
+    }
+
+    .welcome {
+        padding-inline: 1rem;
+    }
+
+    .welcome__title {
+        font-size: 3rem;
+    }
+
+    .welcome__quote {
+        font-size: 1.15rem;
+    }
+
+    .welcome__text {
+        font-size: 0.86rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .hero__content {
+        max-width: 620px;
+    }
+
+    .welcome__content {
+        max-width: 720px;
+    }
+
+    .welcome__text {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 600px) {
+    .event-details {
+        padding: 3.5rem 1.25rem;
+    }
+
+    .event-details__title {
+        margin-bottom: 1.5rem;
+        font-size: clamp(2.8rem, 13vw, 4.2rem);
+    }
+
+    .event-details__date {
+        gap: 1rem;
+    }
+
+    .event-details__day {
+        font-size: clamp(4rem, 20vw, 6rem);
+    }
+
+    .event-details__date-text span {
+        font-size: 1.4rem;
+    }
+
+    .event-details__date-text strong {
+        font-size: 1rem;
+    }
+
+    .event-card {
+        padding: 2rem 1.25rem;
+    }
+
+    .event-card__title {
+        font-size: 1.8rem;
+    }
+
+    .event-card__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .event-button {
+        width: 100%;
+        min-width: 0;
+    }
+}
+@media (max-width: 600px) {
+    .gallery {
+        padding: 3rem 1rem;
+    }
+
+    .gallery__header {
+        margin-bottom: 1.5rem;
+    }
+
+    .gallery__title {
+        font-size: clamp(2.8rem, 13vw, 4rem);
+    }
+
+    .gallery-swiper {
+        height: 62vh;
+        min-height: 440px;
+    }
+
+    .gallery .swiper-button-prev,
+    .gallery .swiper-button-next {
+        width: 38px;
+        height: 38px;
+    }
+}
+@media (max-width: 600px) {
+    .rsvp {
+        padding: 3.5rem 1rem;
+    }
+
+    .rsvp__title {
+        font-size: clamp(2.8rem, 13vw, 4rem);
+    }
+
+    .rsvp-form {
+        padding: 2rem 1.25rem;
+    }
+
+    .rsvp__description {
+        font-size: 0.9rem;
+    }
+
+    .rsvp-option {
+        padding: 0.8rem;
+    }
+}
+/* Estado de confirmación */
+.rsvp-status {
+    width: min(100%, 560px);
+    margin-inline: auto;
+    padding: 3rem 2rem;
+    background-color: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(142, 124, 104, 0.25);
+    text-align: center;
+}
+
+.rsvp-status__eyebrow {
+    margin-bottom: 0.75rem;
+    color: var(--color-secondary);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+}
+
+.rsvp-status__title {
+    margin-bottom: 1rem;
+    font-family: var(--font-title);
+    font-size: clamp(2rem, 7vw, 3rem);
+    font-weight: 500;
+}
+
+.rsvp-status__text {
+    max-width: 450px;
+    margin: 0 auto 2rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.rsvp-status__button {
+    min-height: 48px;
+    padding: 0.85rem 1.5rem;
+    border: 1px solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Ventana de confirmación */
+.confirmation-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.confirmation-modal.is-visible {
+    display: flex;
+}
+
+.confirmation-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(25, 20, 17, 0.72);
+    backdrop-filter: blur(5px);
+}
+
+.confirmation-modal__card {
+    position: relative;
+    z-index: 1;
+    width: min(100%, 520px);
+    padding: 3rem 2rem;
+    background:
+        linear-gradient(
+            rgba(248, 245, 240, 0.99),
+            rgba(238, 230, 220, 0.99)
+        );
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: var(--shadow-soft);
+    text-align: center;
+}
+
+.confirmation-modal__symbol {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: var(--color-secondary);
+    font-family: var(--font-title);
+    font-size: 2rem;
+}
+
+.confirmation-modal__eyebrow {
+    margin-bottom: 0.75rem;
+    color: var(--color-secondary);
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+}
+
+.confirmation-modal__title {
+    margin-bottom: 1rem;
+    font-family: var(--font-title);
+    font-size: clamp(2rem, 8vw, 3.2rem);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.confirmation-modal__text {
+    max-width: 430px;
+    margin: 0 auto 2rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.confirmation-modal__actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.confirmation-modal__button {
+    min-width: 180px;
+    min-height: 48px;
+    padding: 0.8rem 1.25rem;
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: #ffffff;
+    font-family: var(--font-body);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.confirmation-modal__button--secondary {
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
