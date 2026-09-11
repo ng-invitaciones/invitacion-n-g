@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("confirmation-edit-button");
 
     const storageKey = "weddingInvitationRsvp";
-    const whatsappNumber = "5215512345678";
+    const whatsappNumber = "5215513190849";
 
     function obtenerConfirmacionGuardada() {
         try {

@@ -1,18 +1,18 @@
 const invitationConfig = {
-    eventType: "Nuestra boda civil",
+    eventType: "NUESTRA BODA CIVIL",
 
     couple: {
-        person1: "Gustavo",
-        person2: "Nadia"
+        person1: "Nadia",
+        person2: "Gustavo"
     },
 
-    eventDate: "2026-12-31T18:00:00",
+    eventDate: "2026-10-17T18:00:00",
 
-    displayDate: "31 · 12 · 2026",
+    displayDate: "17 · 10 · 2026",
 
     hero: {
         image: "assets/images/portada.png",
-        scrollText: "Desliza para descubrir"
+        scrollText: "Se parte de nuestro momento"
     },
 
     welcome: {
